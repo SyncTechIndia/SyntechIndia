@@ -12,45 +12,45 @@ const MytTeam = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Chirag Zaware",
-      role: "CEO",
-      image: Chiku,
-      bio: "Leading with vision and innovation for over 10 years"
-    },
-    {
-      id: 2,
-      name: "Sujit Dhotre",
-      role: "CTO",
-      image: DS,
-      bio: "Streamlining operations and driving efficiency"
-    },
-    {
-      id: 3,
-      name: "Tushar Bhambure",
-      role: "MD",
-      image: Tushar,
-      bio: "Pioneering technology solutions and digital transformation"
-    },
-    {
-      id: 4,
       name: "Akshay Bomble",
       role: "CEO",
       image: ABB,
-      bio: "Managing financial strategy and sustainable growth"
+      bio: "Director/Business Head"
+    },
+    {
+      id: 2,
+      name: "Chirag Zaware",
+      role: "CEO",
+      image: Chiku,
+      bio: "Technology Expert (Software Development)"
+    },
+    {
+      id: 3,
+      name: "Sujit Dhotre",
+      role: "CTO",
+      image: DS,
+      bio: "Technology Expert (Software Development)"
+    },
+    {
+      id: 4,
+      name: "Tushar Bhambure",
+      role: "MD",
+      image: Tushar,
+      bio: "Database and Data Management Expert"
     },
     {
       id: 5,
       name: "Rushikesh Mane",
       role: "CSO",
       image: RMD,
-      bio: "Managing financial strategy and sustainable growth"
+      bio: "Sales and Marketing"
     },
     {
-      id: 5,
+      id: 6,
       name: "Akash Dhore",
       role: "SE",
       image: AD,
-      bio: "Managing financial strategy and sustainable growth"
+      bio: "Business Development"
     }
   ];
 
