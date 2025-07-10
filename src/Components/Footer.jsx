@@ -34,7 +34,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
-              OceanTech
+             SyncTech India
             </h3>
             <p className="text-slate-300 leading-relaxed">
               Diving deep into innovation, creating waves of technological excellence that flow across the digital ocean.
@@ -97,15 +97,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-slate-300">
                 <Mail size={18} className="text-blue-400 flex-shrink-0" />
-                <span className="text-sm">hello@oceantech.com</span>
+                <span className="text-sm">synctechindiaitsolutions@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-300">
                 <Phone size={18} className="text-blue-400 flex-shrink-0" />
-                <span className="text-sm">+1 (555) 123-4567</span>
+                <span className="text-sm">+91 721 963 0025</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-300">
                 <MapPin size={18} className="text-blue-400 flex-shrink-0" />
-                <span className="text-sm">Ocean City, Blue Bay</span>
+                <span className="text-sm">Rajgurunagar , pune,410505</span>
               </div>
             </div>
           </div>

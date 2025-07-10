@@ -1,4 +1,10 @@
 import React, { useState } from 'react';
+import Chiku from "../assets/images/Chirag.png";
+import DS from "../assets/images/SD.jpg";
+import Tushar from "../assets/images/BT.jpg";
+import ABB from "../assets/images/AB.jpg";
+import RMD from "../assets/images/RM.jpg";
+import AD from "../assets/images/DA.jpg";
 
 const MytTeam = () => {
   const [hoveredMember, setHoveredMember] = useState(null);
@@ -6,36 +12,50 @@ const MytTeam = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Jiara Martins",
+      name: "Chirag Zaware",
       role: "CEO",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face",
+      image: Chiku,
       bio: "Leading with vision and innovation for over 10 years"
     },
     {
       id: 2,
-      name: "Chidi Eze",
-      role: "COO",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
+      name: "Sujit Dhotre",
+      role: "CTO",
+      image: DS,
       bio: "Streamlining operations and driving efficiency"
     },
     {
       id: 3,
-      name: "Aiyla Hakim",
-      role: "CTO",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
+      name: "Tushar Bhambure",
+      role: "MD",
+      image: Tushar,
       bio: "Pioneering technology solutions and digital transformation"
     },
     {
       id: 4,
-      name: "Sacha Dubois",
-      role: "CFO",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+      name: "Akshay Bomble",
+      role: "CEO",
+      image: ABB,
+      bio: "Managing financial strategy and sustainable growth"
+    },
+    {
+      id: 5,
+      name: "Rushikesh Mane",
+      role: "CSO",
+      image: RMD,
+      bio: "Managing financial strategy and sustainable growth"
+    },
+    {
+      id: 5,
+      name: "Akash Dhore",
+      role: "SE",
+      image: AD,
       bio: "Managing financial strategy and sustainable growth"
     }
   ];
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-blue-200 text-gray-800 pt-20">
+    <div className="min-h-screen bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 py-16 px-4 sm:px-6 lg:px-8">
       {/* Background Animation */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-r from-blue-400/10 to-cyan-400/10 rounded-full animate-pulse"></div>
@@ -47,14 +67,14 @@ const MytTeam = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 tracking-wide">
             <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent animate-pulse">
-              My Team
+              MANAGEMENT TEAM
             </span>
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto rounded-full"></div>
         </div>
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
           {teamMembers.map((member, index) => (
             <div
               key={member.id}

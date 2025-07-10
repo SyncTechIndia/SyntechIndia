@@ -93,39 +93,57 @@ const ServicePage = () => {
   const services = [
     {
       id: 1,
-      title: "Video Production",
+      title: "Software Development",
       icon: <Video size={32} />,
       delay: 100,
     },
     {
       id: 2,
-      title: "Graphic Designing",
+      title: "Website Development",
       icon: <Palette size={32} />,
       delay: 300,
     },
     {
       id: 3,
-      title: "Website Development",
+      title: "Web Application Development",
       icon: <Code size={32} />,
       delay: 500,
     },
     {
       id: 4,
-      title: "Photography",
-      icon: <Camera size={32} />,
+      title: "Mobile Application Development",
+      icon: <Smartphone size={32} />,
       delay: 700,
     },
     {
       id: 5,
-      title: "Music Production",
+      title: "Domain and Hosting",
       icon: <Music size={32} />,
       delay: 900,
     },
     {
       id: 6,
-      title: "Branding",
+      title: "Branding and Media Production Agency",
       icon: <Briefcase size={32} />,
       delay: 1100,
+    },
+    {
+      id: 7,
+      title: "Graphic Design",
+      icon: <Music size={32} />,
+      delay: 900,
+    },
+     {
+      id: 8,
+      title: "Social Media Management",
+      icon: <Music size={32} />,
+      delay: 900,
+    },
+     {
+      id: 9,
+      title: "Digital Marketing",
+      icon: <Music size={32} />,
+      delay: 900,
     }
   ];
 
@@ -177,44 +195,44 @@ const ServicePage = () => {
   const products = [
     {
       id: 1,
-      title: "Web Applications",
+      title: "Software Development",
       icon: <Monitor size={32} />,
-      description: "Custom web applications built with modern technologies for scalable business solutions.",
+      description: "We build powerful, scalable, and customized software solutions tailored to meet your business needs. From enterprise resource planning (ERP) systems to custom CRM platforms, we ensure seamless performance, security, and user-friendly interfaces.",
       delay: 100,
     },
     {
       id: 2,
-      title: "Mobile Apps",
+      title: "Mobile Application Development",
       icon: <Smartphone size={32} />,
-      description: "Native and cross-platform mobile applications for iOS and Android devices.",
+      description: "We create intuitive and engaging mobile apps for Android and iOS that deliver smooth performance and meet your business goals.",
       delay: 300,
     },
     {
       id: 3,
-      title: "E-Commerce Platforms",
+      title: "Website Development",
       icon: <Globe size={32} />,
-      description: "Complete e-commerce solutions with payment integration and inventory management.",
+      description: "Your website is your digital identity. We design and develop visually engaging, mobile-responsive, and SEO-friendly websites that convert visitors into customers.",
       delay: 500,
     },
     {
       id: 4,
-      title: "Database Systems",
+      title: "Domain and Hosting",
       icon: <Database size={32} />,
-      description: "Robust database management systems designed for optimal performance and security.",
+      description: "Get secure, fast, and reliable domain registration and hosting services that keep your business online 24/7.",
       delay: 700,
     },
     {
       id: 5,
-      title: "Cloud Solutions",
+      title: "Graphic Design",
       icon: <Cloud size={32} />,
-      description: "Scalable cloud infrastructure and migration services for modern businesses.",
+      description: "Creative design is at the heart of every successful campaign. We provide eye-catching, brand-consistent graphics that communicate effectively.",
       delay: 900,
     },
     {
       id: 6,
-      title: "Security Systems",
+      title: "Digital Marketing",
       icon: <Lock size={32} />,
-      description: "Advanced cybersecurity solutions to protect your digital assets and data.",
+      description: "We help your business grow online with data-driven marketing strategies that deliver measurable results.",
       delay: 1100,
     }
   ];

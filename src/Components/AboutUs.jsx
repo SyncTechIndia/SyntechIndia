@@ -23,10 +23,9 @@ const AboutUs = () => {
             Who We Are
           </h2>
           <p className="text-lg leading-relaxed text-gray-700 text-center max-w-4xl mx-auto">
-            We are a passionate team of innovators and creators, sailing through the vast ocean of technology 
-            to deliver exceptional solutions. Like the endless blue horizon, our potential knows no bounds. 
-            We believe in the power of collaboration, creativity, and continuous learning to make waves in 
-            the digital world.
+           Synctech India is a dynamic and forward-thinking IT company dedicated to helping startups, 
+           SMEs, and enterprises embrace technology. Our team of passionate developers, designers,
+            strategists, and digital marketers work collaboratively to deliver customized solutions tailored to your business goals.
           </p>
         </section>
 
@@ -37,10 +36,11 @@ const AboutUs = () => {
           <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-blue-200 hover:scale-105 transition-transform duration-300">
             <div className="text-center">
               <Target className="text-4xl text-blue-600 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-3 text-blue-900">Our Target</h3>
+              <h3 className="text-xl font-semibold mb-3 text-blue-900">Our Vision</h3>
               <p className="text-gray-700 text-sm">
-                To become the leading technology partner for businesses worldwide, 
-                creating digital solutions that make a meaningful impact.
+                To become a trusted and innovative leader in the IT and digital solutions industry,
+                empowering businesses to thrive in a connected world through technology driven 
+                creativity and customer focused services.
               </p>
             </div>
           </div>
@@ -51,8 +51,7 @@ const AboutUs = () => {
               <Trophy className="text-4xl text-emerald-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-3 text-emerald-900">Our Achievements</h3>
               <p className="text-gray-700 text-sm">
-                500+ successful projects delivered, 98% client satisfaction rate, 
-                and recognition as a top innovative company in our region.
+               Recognized for excellence in customer satisfaction and on-time delivery.
               </p>
             </div>
           </div>
@@ -73,9 +72,11 @@ const AboutUs = () => {
           <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-orange-200 hover:scale-105 transition-transform duration-300">
             <div className="text-center">
               <Heart className="text-4xl text-orange-600 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-3 text-orange-900">Our Motto</h3>
+              <h3 className="text-xl font-semibold mb-3 text-orange-900">Our Mission</h3>
               <p className="text-gray-700 text-sm font-medium italic">
-                "Diving Deep, Reaching High - Excellence in Every Wave We Make"
+                To deliver high quality customized IT solutions that enhance business performance, 
+                strengthen digital presence, and foster long term partnership with our clients through 
+                integrity . Innovation, and excellence.
               </p>
             </div>
           </div>
@@ -95,9 +96,9 @@ const AboutUs = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-blue-900">Address</h3>
               <p className="text-gray-700">
-                123 Ocean Drive<br />
-                Blue Bay Technology Park<br />
-                Tech City, TC 12345
+                Rajgurunagar<br />
+                Pune,410505<br />
+                
               </p>
             </div>
             
@@ -107,8 +108,8 @@ const AboutUs = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-green-900">Phone</h3>
               <p className="text-gray-700">
-                +1 (555) 123-4567<br />
-                +1 (555) 987-6543
+                +91 721 963 0025<br />
+                +91 99702 76895
               </p>
             </div>
             
@@ -118,7 +119,7 @@ const AboutUs = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-purple-900">Email</h3>
               <p className="text-gray-700">
-                info@oceantech.com<br />
+                synctechindiaitsolutions@gmail.com<br />
                 contact@oceantech.com
               </p>
             </div>

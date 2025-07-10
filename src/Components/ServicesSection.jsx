@@ -81,37 +81,37 @@ const ServicesSection = () => {
   const services = [
     {
       id: 1,
-      title: "Video Production",
+      title: "Software Development",
       icon: <Video size={32} />,
       delay: 100,
     },
     {
       id: 2,
-      title: "Graphic Designing",
+      title: "Website Development",
       icon: <Palette size={32} />,
       delay: 300,
     },
     {
       id: 3,
-      title: "Website Development",
+      title: "Web Application Development",
       icon: <Code size={32} />,
       delay: 500,
     },
     {
       id: 4,
-      title: "Photography",
+      title: "Mobile Application Development",
       icon: <Camera size={32} />,
       delay: 700,
     },
     {
       id: 5,
-      title: "Music Production",
+      title: "Domain and Hosting",
       icon: <Music size={32} />,
       delay: 900,
     },
     {
       id: 6,
-      title: "Branding",
+      title: "Branding and Media Production Agency",
       icon: <Briefcase size={32} />,
       delay: 1100,
     }
