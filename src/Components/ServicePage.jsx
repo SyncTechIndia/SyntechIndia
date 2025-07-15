@@ -185,9 +185,9 @@ const ServicePage = () => {
     },
     {
       id: 6,
-      title: "Award Winning",
+      title: "Client-Centric Approach",
       icon: <Award size={32} />,
-      description: "Recognized by industry leaders for our excellence and outstanding service delivery.",
+      description:" We listen, we understand, and we deliver exactly what your business needs.",
       delay: 1200,
     }
   ];
@@ -346,7 +346,7 @@ const ServicePage = () => {
           </div>
         </section>
         {/* Our Products Section */}
-        <section>
+        {/* <section>
           <h2 className="text-4xl font-bold mb-4  text-blue-900 drop-shadow-lg animate-wave text-center">Our Products</h2>
           <p className="text-blue-700 text-center mb-12 max-w-2xl mx-auto">Explore our innovative products designed to transform your business operations</p>
           
@@ -367,15 +367,13 @@ const ServicePage = () => {
                   transitionDelay: `${product.delay}ms`,
                 }}
               >
-                {/* Outer glow effect */}
+              
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-purple-300 rounded-xl opacity-0 group-hover:opacity-100 blur-md transition-opacity duration-500"></div>
-                
-                {/* Card content container with background */}
+          
                 <div className="relative bg-white/80 backdrop-blur-sm p-6 rounded-xl z-10 h-full w-full group-hover:bg-purple-600 transition-colors duration-500">
-                  {/* Glowing dot in top corner on hover */}
+               
                   <div className="absolute top-0 right-0 h-12 w-12 rounded-full bg-purple-400/0 blur-xl transform translate-x-6 -translate-y-6 group-hover:bg-purple-400/40 group-hover:scale-150 transition-all duration-500"></div>
                   
-                  {/* Background ripple effect */}
                   <div className="absolute inset-0 bg-gradient-to-br from-transparent to-purple-900/0 group-hover:to-purple-900/20 transition-all duration-700 rounded-xl"></div>
                   
                   <div className="flex justify-between items-start relative z-10 mb-4">
@@ -388,14 +386,13 @@ const ServicePage = () => {
                   <p className="text-gray-700 text-sm transition-all duration-300 group-hover:text-purple-100 relative z-10">
                     {product.description}
                   </p>
-                  
-                  {/* Bottom border that expands on hover */}
+          
                   <div className="absolute bottom-0 left-0 h-1 w-0 bg-purple-300 group-hover:w-full transition-all duration-700 ease-in-out"></div>
                 </div>
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
 
       </div>
        <style>{`

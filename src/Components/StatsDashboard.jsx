@@ -16,9 +16,9 @@ export default function StatsDashboard() {
   // Animation targets
   const targetCounts = {
     satisfaction: 97,
-    clients: 100,
+    clients: 50,
     industries: 10,
-    years: 7
+    years: 2
   };
   
   // Handle scroll observation

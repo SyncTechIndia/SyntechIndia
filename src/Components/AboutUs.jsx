@@ -120,7 +120,7 @@ const AboutUs = () => {
               <h3 className="text-xl font-semibold mb-2 text-purple-900">Email</h3>
               <p className="text-gray-700">
                 synctechindiaitsolutions@gmail.com<br />
-                contact@oceantech.com
+                
               </p>
             </div>
           </div>

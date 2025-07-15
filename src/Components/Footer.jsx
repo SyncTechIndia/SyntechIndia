@@ -1,10 +1,16 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, ChevronUp } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+  const links = [
+  { name: 'Home', path: '/' },
+  { name: 'About Us', path: '/about' },
+  { name: 'Services', path: '/services' },
+];
 
   return (
     <footer className="relative bg-gradient-to-b from-slate-900 via-blue-950 to-slate-950 text-white overflow-hidden">
@@ -37,8 +43,7 @@ const Footer = () => {
              SyncTech India
             </h3>
             <p className="text-slate-300 leading-relaxed">
-              Diving deep into innovation, creating waves of technological excellence that flow across the digital ocean.
-            </p>
+              Your compass for cutting-edge software and impactful digital marketing            </p>
             <div className="flex space-x-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, index) => (
                 <button
@@ -57,14 +62,14 @@ const Footer = () => {
               Quick Links
             </h4>
             <ul className="space-y-2">
-              {['Home', 'About Us', 'Services', 'Portfolio', 'Blog'].map((link) => (
-                <li key={link}>
-                  <a
-                    href="#"
+              {links.map((link) => (
+                <li key={link.name}>
+                  <Link
+                    to={link.path}
                     className="text-slate-300 hover:text-blue-300 transition-colors duration-200 hover:translate-x-1 inline-block"
                   >
-                    {link}
-                  </a>
+                    {link.name}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -136,7 +141,7 @@ const Footer = () => {
         {/* Bottom section */}
         <div className="border-t border-blue-800/30 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-slate-400 text-sm text-center md:text-left">
-            <p>&copy; 2025 OceanTech. All rights reserved. | Privacy Policy | Terms of Service</p>
+            <p>&copy; 2025 SyncTech India. All rights reserved. | Privacy Policy | Terms of Service</p>
           </div>
           
           {/* Back to top button */}

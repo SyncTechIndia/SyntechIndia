@@ -189,7 +189,7 @@ const Hero = () => {
           Creative Branding and Media<br />Production Agency
         </h1>
         <p className="text-lg text-center max-w-3xl mb-8">
-          50+ clients across the globe are happy recipients of Antriksh Global's impeccable branding services!
+          50+ clients across the globe are happy recipients of Synctech India impeccable branding services!
           <br />
           We provide services such as video, design, website, e-modules, content strategy, brand analysis and many more.
         </p>

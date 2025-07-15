@@ -13,42 +13,42 @@ const MytTeam = () => {
     {
       id: 1,
       name: "Akshay Bomble",
-      role: "CEO",
+      role: "Director/Business Head ",
       image: ABB,
       bio: "Director/Business Head"
     },
     {
       id: 2,
       name: "Chirag Zaware",
-      role: "CEO",
+      role: "Technology Expert (Software Development)",
       image: Chiku,
       bio: "Technology Expert (Software Development)"
     },
-    {
-      id: 3,
-      name: "Sujit Dhotre",
-      role: "CTO",
-      image: DS,
-      bio: "Technology Expert (Software Development)"
-    },
+    // {
+    //   id: 3,
+    //   name: "Sujit Dhotre",
+    //   role: "CTO",
+    //   image: DS,
+    //   bio: "Technology Expert (Software Development)"
+    // },
     {
       id: 4,
       name: "Tushar Bhambure",
-      role: "MD",
+      role: " Database and Data Management Expert",
       image: Tushar,
       bio: "Database and Data Management Expert"
     },
     {
       id: 5,
       name: "Rushikesh Mane",
-      role: "CSO",
+      role: "Sales and Marketing",
       image: RMD,
       bio: "Sales and Marketing"
     },
     {
       id: 6,
       name: "Akash Dhore",
-      role: "SE",
+      role: " Business Development",
       image: AD,
       bio: "Business Development"
     }
@@ -67,7 +67,7 @@ const MytTeam = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 tracking-wide">
             <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent animate-pulse">
-              MANAGEMENT TEAM
+              Meet Our Team
             </span>
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto rounded-full"></div>
@@ -132,7 +132,7 @@ const MytTeam = () => {
                       hoveredMember === member.id ? 'max-h-20 opacity-100' : 'max-h-0 opacity-0'
                     }`}>
                       <p className="text-sm text-gray-300 leading-relaxed">
-                        {member.bio}
+                       {/* {member.bio}*/}
                       </p>
                     </div>
                   </div>

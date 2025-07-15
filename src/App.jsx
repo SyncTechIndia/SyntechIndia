@@ -9,6 +9,7 @@ import AboutUs from './Components/AboutUs';
 import HomePage from './Components/HomePage';
 import Footer from './Components/Footer';
 import ServicePage from './Components/ServicePage';
+import ScrollToTop from './Components/ScrollToTop';
 
 // Additional pages if you have them:
 
@@ -17,6 +18,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       
+  <ScrollToTop />
       <Routes>
         <Route 
           path="/" 
