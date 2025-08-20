@@ -167,10 +167,6 @@ const Hero = () => {
         ref={canvasRef} 
         className="absolute inset-0 z-0"
       />
-
-      {/* Navigation removed as requested */}
-
-      {/* Curved line */}
       <div className="absolute top-1/3 w-full">
         <svg className="w-full" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -186,33 +182,20 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white pb-24">
         <h1 className="text-6xl font-bold text-center mb-4">
-          Creative Branding and Media<br />Production Agency
+          Creative Branding and Media
+Production Agency
         </h1>
         <p className="text-lg text-center max-w-3xl mb-8">
           50+ clients across the globe are happy recipients of Synctech India impeccable branding services!
           <br />
           We provide services such as video, design, website, e-modules, content strategy, brand analysis and many more.
         </p>
-        <button className="flex items-center gap-2 bg-black text-white px-8 py-3 rounded-full">
+        <button className="flex items-center gap-2 bg-black text-white px-8 py-3 rounded-full cursor-pointer">
           <span>Get in touch</span>
           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
-      </div>
-
-      {/* Action buttons */}
-      <div className="absolute right-8 bottom-24 flex flex-col gap-4">
-        <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center cursor-pointer">
-          <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5 15L12 8L19 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </div>
-        <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center cursor-pointer">
-          <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20.01 15.38C18.78 15.38 17.59 15.18 16.48 14.82C16.13 14.7 15.74 14.79 15.47 15.06L13.9 17.03C11.07 15.68 8.42 13.13 7.01 10.2L8.96 8.54C9.23 8.26 9.31 7.87 9.2 7.52C8.83 6.41 8.64 5.22 8.64 3.99C8.64 3.45 8.19 3 7.65 3H4.19C3.65 3 3 3.24 3 3.99C3 13.28 10.73 21 20.01 21C20.72 21 21 20.37 21 19.82V16.37C21 15.83 20.55 15.38 20.01 15.38Z" fill="currentColor" />
-          </svg>
-        </div>
       </div>
     </div>
   );
