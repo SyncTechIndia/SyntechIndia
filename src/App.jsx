@@ -10,6 +10,7 @@ import HomePage from './Components/HomePage';
 import Footer from './Components/Footer';
 import ServicePage from './Components/ServicePage';
 import ScrollToTop from './Components/ScrollToTop';
+import ContactUs from './Components/ContactUs';
 
 // Additional pages if you have them:
 
@@ -39,8 +40,8 @@ function App() {
 
         {/* Services pages */}
         {/* <Route path="/services/consulting" element={<Consulting />} />
-        <Route path="/services/development" element={<Development />} />
-        <Route path="/services/design" element={<Design />} /> */}
+        <Route path="/services/development" element={<Development />} />*/}
+        <Route path="/contact" element={<ContactUs />} /> 
       </Routes>
         <Footer />
     </BrowserRouter>

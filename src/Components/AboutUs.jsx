@@ -161,7 +161,7 @@ const AboutUs = () => {
         }
       `}</style>
     </div>
-      <MytTeam/>
+      {/* <MytTeam/> */}
     </>
   )
 };

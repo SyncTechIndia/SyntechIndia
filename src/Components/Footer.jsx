@@ -81,14 +81,11 @@ const Footer = () => {
               Services
             </h4>
             <ul className="space-y-2">
-              {['Web Development', 'Mobile Apps', 'Cloud Solutions', 'AI Integration', 'Consulting'].map((service) => (
+              {['Software Development','Web Development', 'Mobile Apps', 'Domain and Hosting', 'Branding and Media Production', 'Graphic Design','Digital Marketing'].map((service) => (
                 <li key={service}>
-                  <a
-                    href="#"
-                    className="text-slate-300 hover:text-blue-300 transition-colors duration-200 hover:translate-x-1 inline-block"
-                  >
+                 
                     {service}
-                  </a>
+                 
                 </li>
               ))}
             </ul>

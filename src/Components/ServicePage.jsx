@@ -165,16 +165,16 @@ const ServicePage = () => {
       features: ["Static and dynamic websites", "E-commerce development", "CMS-based websites ","Website redesign and maintenance"],
       technologies: ["HTML5", "CSS3", "JavaScript", "WordPress","TailWind","Bootstrap","MUI"],
     },
-    {
-      id: 3,
-      title: "Web Application Development",
-      icon: <Monitor size={32} />,
-      delay: 500,
-      shortDesc: "We specialize in creating interactive, secure, and high-performing web applications that streamline business processes and enhance user experience.",
-      features: ["Business portals", "SaaS platforms", "CRM/HRM solutions","Online booking systems"],
-      technologies: ["React", "Vue.js", "Angular", "Firebase"],
+    // {
+    //   id: 3,
+    //   title: "Web Application Development",
+    //   icon: <Monitor size={32} />,
+    //   delay: 500,
+    //   shortDesc: "We specialize in creating interactive, secure, and high-performing web applications that streamline business processes and enhance user experience.",
+    //   features: ["Business portals", "SaaS platforms", "CRM/HRM solutions","Online booking systems"],
+    //   technologies: ["React", "Vue.js", "Angular", "Firebase"],
  
-    },
+    // },
     {
       id: 4,
       title: "Mobile Application Development",
