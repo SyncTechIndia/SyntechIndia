@@ -1,7 +1,6 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, ChevronUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -99,21 +98,21 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-slate-300">
                 <Mail size={18} className="text-blue-400 flex-shrink-0" />
-                <span className="text-sm">synctechindiaitsolutions@gmail.com</span>
+                <span className="text-sm">info@synctechindia.com</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-300">
                 <Phone size={18} className="text-blue-400 flex-shrink-0" />
-                <span className="text-sm">+91 721 963 0025</span>
+                <span className="text-sm">+91 7219630025</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-300">
                 <MapPin size={18} className="text-blue-400 flex-shrink-0" />
-                <span className="text-sm">Rajgurunagar , pune,410505</span>
+                <span className="text-sm">Rajgurunagar , Pune - 410505</span>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Newsletter section */}
+        {/* Newsletter section
         <div className="border-t border-blue-800/30 pt-8 mb-8">
           <div className="text-center">
             <h4 className="text-xl font-semibold text-blue-300 mb-4">
@@ -133,7 +132,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom section */}
         <div className="border-t border-blue-800/30 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">

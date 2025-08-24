@@ -152,7 +152,7 @@ export default function ContactUs() {
                   </div>
                   <div>
                     <p className="text-slate-500 text-sm">Phone</p>
-                    <p className="text-slate-800 font-medium">+1 (555) 123-4567</p>
+                    <p className="text-slate-800 font-medium">+91 7058052789<br/>+91 7219630025</p>
                   </div>
                 </div>
                 
@@ -162,7 +162,7 @@ export default function ContactUs() {
                   </div>
                   <div>
                     <p className="text-slate-500 text-sm">Email</p>
-                    <p className="text-slate-800 font-medium">hello@company.com</p>
+                    <p className="text-slate-800 font-medium">info@synctechindia.com <br/>synctechindiaitsolutions@gmail.com</p>
                   </div>
                 </div>
                 
@@ -172,7 +172,7 @@ export default function ContactUs() {
                   </div>
                   <div>
                     <p className="text-slate-500 text-sm">Address</p>
-                    <p className="text-slate-800 font-medium">123 Ocean Drive<br />Blue City, BC 12345</p>
+                    <p className="text-slate-800 font-medium">Sayali Home, Behind the Market Yard, Rajgurunagar,Khed,Pune,410505</p>
                   </div>
                 </div>
                 
@@ -200,13 +200,6 @@ export default function ContactUs() {
         </div>
       </div>
 
-      {/* Footer Wave */}
-      <div className="mt-16">
-        <svg viewBox="0 0 1200 120" className="w-full h-24">
-          <path d="M0,60 C150,10 350,110 600,60 C850,10 1050,110 1200,60 V0 H0 V60 Z" 
-                className="fill-blue-200/60"></path>
-        </svg>
-      </div>
     </div>
   );
 }
